@@ -25,7 +25,7 @@ RUN set -e &&
 
 3. Run docker image created above by running following command (in root of next repo):
 ```
-$ docker run -it --mount type=bind,source="$(pwd)",target=/next-swc next-swc-linux-image:latest bash
+$ docker run -it --mount type=bind,source="$(pwd)",target=/next next-swc-linux-image:latest bash
 ```
 
 4. Run followin commands inside container:
